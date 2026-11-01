@@ -1,0 +1,7 @@
+node_modules/
+dist/
+gance-netlify.zip
+archive/
+.env
+.env.*
+.DS_Store

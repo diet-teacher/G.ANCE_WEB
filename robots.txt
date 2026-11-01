@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Search access is independent of model-training policy.
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://beautiful-dasik-9523c8.netlify.app/sitemap.xml
