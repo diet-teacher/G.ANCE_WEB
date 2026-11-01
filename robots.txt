@@ -5,4 +5,4 @@ Allow: /
 User-agent: GPTBot
 Disallow: /
 
-Sitemap: https://beautiful-dasik-9523c8.netlify.app/sitemap.xml
+Sitemap: https://gance-web.netlify.app/sitemap.xml

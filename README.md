@@ -8,7 +8,7 @@ D:\work\GANCE_Web\index.html을 더블클릭합니다. 수정 후 브라우저�
 
 ## 나중에 Netlify에 올리기
 
-현재 검색용 URL은 https://beautiful-dasik-9523c8.netlify.app/ 입니다. 다른 프로젝트에 올릴 경우 먼저 실제 주소로 변경해야 합니다.
+현재 검색용 URL은 https://gance-web.netlify.app/ 입니다. 다른 프로젝트에 올릴 경우 먼저 실제 주소로 변경해야 합니다.
 
 ```powershell
 cd D:\work\GANCE_Web
@@ -17,7 +17,7 @@ node scripts/package.mjs
 
 원본 검사 → dist 폴더 재생성 → 배포본 검사를 수행합니다. Node.js 외 패키지 설치는 필요하지 않습니다.
 
-- Netlify에서 기존 beautiful-dasik-9523c8 프로젝트를 선택하고 Deploys의 수동 업로드 영역에 dist 폴더를 끌어 놓습니다. 기존 주소의 랜딩페이지가 새 홈페이지로 교체됩니다.
+- Netlify에서 새 홈페이지 gance-web 프로젝트를 선택하고 Deploys의 수동 업로드 영역에 dist 폴더를 끌어 놓습니다. 새 홈페이지가 갱신됩니다. 기존 랜딩페이지 프로젝트는 별도로 유지합니다.
 - gance-netlify.zip은 이번에 만든 dist의 압축본입니다. ZIP 사용 시 압축을 풀고 index.html이 바로 들어 있는 폴더를 업로드하세요. 수정 후에는 폴더와 ZIP을 다시 만들어야 합니다.
 - 전체 작업 폴더를 올리지 마세요. docs, scripts, archive는 dist에서 제외됩니다.
 - GitHub 연동을 선택하면 netlify.toml의 빌드 명령과 dist 게시 경로를 사용합니다. 수동 업로드는 로컬에서 먼저 package 명령을 실행해야 합니다.

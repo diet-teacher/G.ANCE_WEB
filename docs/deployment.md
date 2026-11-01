@@ -1,14 +1,14 @@
 # Netlify 배포 및 검색 등록
 
-현재 기존 사이트 주소: https://beautiful-dasik-9523c8.netlify.app/
-실제 배포는 아직 수행하지 않았습니다.
+현재 홈페이지 주소: https://gance-web.netlify.app/
+사용자가 별도 Netlify 프로젝트에 홈페이지를 공개했습니다. GitHub main 변경 시 자동 배포 상태를 확인하세요.
 
 ## 수동 업로드
 
 1. 작업 폴더에서 node scripts/package.mjs 명령을 실행해 dist를 생성합니다.
-2. Netlify에 기존 사이트 관리 계정으로 로그인하고 beautiful-dasik-9523c8 프로젝트를 선택합니다. 새 프로젝트를 만들면 다른 주소가 생깁니다.
+2. Netlify에 기존 사이트 관리 계정으로 로그인하고 gance-web 프로젝트를 선택합니다. 새 프로젝트를 만들면 다른 주소가 생깁니다.
 3. Deploys 화면의 수동 업로드 영역에 dist 폴더를 끌어 놓습니다. 폴더 바로 아래 index.html과 _headers가 있어야 합니다. gance-netlify.zip 사용 시 압축을 먼저 풉니다.
-4. 게시 완료 후 기존 공개 주소를 새로고침합니다. 이때 기존 랜딩페이지가 새 홈페이지로 바뀝니다.
+4. 게시 완료 후 기존 공개 주소를 새로고침합니다. 이때 gance-web 홈페이지가 갱신됩니다. 기존 랜딩페이지 프로젝트는 별도로 유지합니다.
 5. 수정할 때마다 package 명령을 다시 실행하고 dist를 다시 올립니다.
 
 ## GitHub 자동 배포 (선택)
